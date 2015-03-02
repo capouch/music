@@ -29,6 +29,10 @@ public class Music {
     media = thisMedia;
     }   
 	
+  public String getAlbum() {
+    return album;
+    }
+
   public String toString() {
     String output = "";
     output = "Album: " + album + " Artist: " + artist + " Genre: " + genre + " Media: " + media + " Location: " + location + " Copies: " + copies;
