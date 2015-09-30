@@ -5,6 +5,5 @@ public class MusicDriver {
 	Music anotherMusic = new Music("Back in Black", "AC/DC", "Metal", "CD");
 	System.out.println(anotherMusic.toString());
 	System.out.println(anotherMusic.getAlbum());
-	System.out.println(anotherMusic.getAlbum());
         }
   }
